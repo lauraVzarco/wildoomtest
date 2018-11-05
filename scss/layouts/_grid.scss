@@ -1,0 +1,122 @@
+//first grid
+
+.first-section-wrapper{
+    display: grid;
+    height: 450px;
+    grid-gap: 3px;
+    grid-template-columns: 50% 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "one two"
+    "one  three";
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.item-first-1{
+    grid-area: one;
+    background-image: url("https://images.immediate.co.uk/volatile/sites/23/2018/11/Megophrys-fansipanensis-c-Ben-Tapley_ZSL-3-9cf10cb.jpg?quality=90&crop=340px,54px,4822px,3212px&resize=620,413");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -webkit-box-shadow: inset 133px 0px 201px -7px rgba(0,0,0,0.57);
+    -moz-box-shadow: inset 133px 0px 201px -7px rgba(0,0,0,0.57);
+    box-shadow: inset 133px 0px 201px -7px rgba(0,0,0,0.57);
+    padding-left: 10px;
+    padding-top: 45%;
+}
+
+.item-first-2{
+    grid-area: two;
+    background-image: url("http://img2.rtve.es/i/?w=1600&i=1527869374492.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -webkit-box-shadow: inset 133px 0px 201px -7px rgba(0,0,0,0.57);
+    -moz-box-shadow: inset 133px 0px 201px -7px rgba(0,0,0,0.57);
+    box-shadow: inset 133px 0px 201px -7px rgba(0,0,0,0.57);
+    padding-left: 10px;
+    padding-top: 20%;
+}
+
+.item-first-3{
+    grid-area: three;
+    background-image: url("https://www.areadelfines.com/Imagenes/tiburon-blanco.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -webkit-box-shadow: inset 133px 0px 201px -7px rgba(0,0,0,0.57);
+    -moz-box-shadow: inset 133px 0px 201px -7px rgba(0,0,0,0.57);
+    box-shadow: inset 133px 0px 201px -7px rgba(0,0,0,0.57);
+    padding-left: 10px;
+    padding-top: 20%;
+}
+
+//secondgrid
+
+.second-section-wrapper{
+    display: grid;
+    height: 450px;
+    grid-gap: 3px;
+    grid-template-columns: 50% 1fr 1fr;
+    grid-template-rows: 50% 1fr 1fr;
+    grid-template-areas: "one two two"
+    "one three four"
+    "one three five";
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.item-second1{
+    padding-left: 10px;
+    padding-top: 47%;
+    grid-area: one;
+    background-image: url("http://www.fotonatura.org/galerias/fotos/usr454/12656391JE.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -webkit-box-shadow: inset 133px 0px 201px -7px rgba(0,0,0,0.57);
+    -moz-box-shadow: inset 133px 0px 201px -7px rgba(0,0,0,0.57);
+    box-shadow: inset 133px 0px 201px -7px rgba(0,0,0,0.57);
+}
+
+.item-second2{
+    grid-area: two;
+    background-image: url("https://estaticos.elperiodico.com/resources/jpg/2/5/1514891373652.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -webkit-box-shadow: inset 133px 0px 201px -7px rgba(0,0,0,0.57);
+    -moz-box-shadow: inset 133px 0px 201px -7px rgba(0,0,0,0.57);
+    box-shadow: inset 133px 0px 201px -7px rgba(0,0,0,0.57);
+    padding-left: 10px;
+    padding-top: 17%;
+}
+
+.item-second3{
+    grid-area: three;
+    background-image: url("https://www.zoo.org.au/sites/default/files/styles/zv_retina/public/regent-honeyeater-620x380.jpg?itok=yLZnM01p");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -webkit-box-shadow: inset 133px 0px 201px -7px rgba(0,0,0,0.57);
+    -moz-box-shadow: inset 133px 0px 201px -7px rgba(0,0,0,0.57);
+    box-shadow: inset 133px 0px 201px -7px rgba(0,0,0,0.57);
+    padding-left: 10px;
+    padding-top: 30%;
+}
+
+.item-second4{
+    padding-left: 10px;
+    padding-bottom: 6px;
+    grid-area: four;
+    background-color:$background-color;
+    background-size: 100%;
+    -webkit-box-shadow: inset 133px 0px 201px -7px rgba(0,0,0,0.57);
+    -moz-box-shadow: inset 133px 0px 201px -7px rgba(0,0,0,0.57);
+    box-shadow: inset 133px 0px 201px -7px rgba(0,0,0,0.57);
+}
+
+.item-second5{
+    padding-left: 10px;
+    padding-bottom: 6px;
+    grid-area: five;
+    background-color:$background-color;
+    background-size: 100%;
+    -webkit-box-shadow: inset 133px 0px 201px -7px rgba(0,0,0,0.57);
+    -moz-box-shadow: inset 133px 0px 201px -7px rgba(0,0,0,0.57);
+    box-shadow: inset 133px 0px 201px -7px rgba(0,0,0,0.57);
+}

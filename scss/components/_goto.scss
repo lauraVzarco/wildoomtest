@@ -1,0 +1,15 @@
+.go-to{
+    background-color: $color-primary;
+    color: $color-secondary;
+    font-family: $font-family2;
+    font-size: $font-size-s;
+    padding: 8px;
+    text-align: center;
+    margin: auto;
+    -webkit-border-radius: 70px;
+    -moz-border-radius: 70px;
+    border-radius: 70px;
+        &:hover {
+            color: $color-cuaternary;
+        }
+}

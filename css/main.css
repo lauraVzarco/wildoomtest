@@ -1,0 +1,177 @@
+.header-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size: 36px;
+  color: black;
+  padding-left: 20px;
+}
+
+.first-section-wrapper {
+  display: grid;
+  height: 450px;
+  grid-gap: 3px;
+  grid-template-columns: 50% 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "one two" "one  three";
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.item-first-1 {
+  grid-area: one;
+  background-image: url("https://images.immediate.co.uk/volatile/sites/23/2018/11/Megophrys-fansipanensis-c-Ben-Tapley_ZSL-3-9cf10cb.jpg?quality=90&crop=340px,54px,4822px,3212px&resize=620,413");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  -webkit-box-shadow: inset 133px 0px 201px -7px rgba(0, 0, 0, 0.57);
+  box-shadow: inset 133px 0px 201px -7px rgba(0, 0, 0, 0.57);
+  padding-left: 10px;
+  padding-top: 45%;
+}
+
+.item-first-2 {
+  grid-area: two;
+  background-image: url("http://img2.rtve.es/i/?w=1600&i=1527869374492.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  -webkit-box-shadow: inset 133px 0px 201px -7px rgba(0, 0, 0, 0.57);
+  box-shadow: inset 133px 0px 201px -7px rgba(0, 0, 0, 0.57);
+  padding-left: 10px;
+  padding-top: 20%;
+}
+
+.item-first-3 {
+  grid-area: three;
+  background-image: url("https://www.areadelfines.com/Imagenes/tiburon-blanco.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  -webkit-box-shadow: inset 133px 0px 201px -7px rgba(0, 0, 0, 0.57);
+  box-shadow: inset 133px 0px 201px -7px rgba(0, 0, 0, 0.57);
+  padding-left: 10px;
+  padding-top: 20%;
+}
+
+.second-section-wrapper {
+  display: grid;
+  height: 450px;
+  grid-gap: 3px;
+  grid-template-columns: 50% 1fr 1fr;
+  grid-template-rows: 50% 1fr 1fr;
+  grid-template-areas: "one two two" "one three four" "one three five";
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.item-second1 {
+  padding-left: 10px;
+  padding-top: 47%;
+  grid-area: one;
+  background-image: url("http://www.fotonatura.org/galerias/fotos/usr454/12656391JE.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  -webkit-box-shadow: inset 133px 0px 201px -7px rgba(0, 0, 0, 0.57);
+  box-shadow: inset 133px 0px 201px -7px rgba(0, 0, 0, 0.57);
+}
+
+.item-second2 {
+  grid-area: two;
+  background-image: url("https://estaticos.elperiodico.com/resources/jpg/2/5/1514891373652.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  -webkit-box-shadow: inset 133px 0px 201px -7px rgba(0, 0, 0, 0.57);
+  box-shadow: inset 133px 0px 201px -7px rgba(0, 0, 0, 0.57);
+  padding-left: 10px;
+  padding-top: 17%;
+}
+
+.item-second3 {
+  grid-area: three;
+  background-image: url("https://www.zoo.org.au/sites/default/files/styles/zv_retina/public/regent-honeyeater-620x380.jpg?itok=yLZnM01p");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  -webkit-box-shadow: inset 133px 0px 201px -7px rgba(0, 0, 0, 0.57);
+  box-shadow: inset 133px 0px 201px -7px rgba(0, 0, 0, 0.57);
+  padding-left: 10px;
+  padding-top: 30%;
+}
+
+.item-second4 {
+  padding-left: 10px;
+  padding-bottom: 6px;
+  grid-area: four;
+  background-color: #7EA9AF;
+  background-size: 100%;
+  -webkit-box-shadow: inset 133px 0px 201px -7px rgba(0, 0, 0, 0.57);
+  box-shadow: inset 133px 0px 201px -7px rgba(0, 0, 0, 0.57);
+}
+
+.item-second5 {
+  padding-left: 10px;
+  padding-bottom: 6px;
+  grid-area: five;
+  background-color: #7EA9AF;
+  background-size: 100%;
+  -webkit-box-shadow: inset 133px 0px 201px -7px rgba(0, 0, 0, 0.57);
+  box-shadow: inset 133px 0px 201px -7px rgba(0, 0, 0, 0.57);
+}
+
+.go-to {
+  background-color: #01DB91;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  padding: 8px;
+  text-align: center;
+  margin: auto;
+  border-radius: 70px;
+}
+
+.go-to:hover {
+  color: #1d634b;
+}
+
+.section-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size: 28px;
+  color: black;
+  margin-right: 60%;
+}
+
+a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1d634b;
+  text-decoration: none;
+}
+
+.play-img {
+  width: 20px;
+  height: 20px;
+}
+
+.category-name {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.info-wrapper {
+  padding-left: 20px;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=main.css.map */
